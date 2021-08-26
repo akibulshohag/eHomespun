@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ebhubon express",
+    "slug": "delivery-app",
+    "version": "1.0.10",
+    "orientation": "portrait",
+    "icon": "./assets/ebhubon-delivery-app-icon-red-02.png",
+    "splash": {
+      "image": "./assets/images/splash",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+  
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ebhubon-delivery-app-icon-red-02.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ebhubon.express",
+      "versionCode": 4
+    },
+    "web": {
+      "favicon": "./assets/ebhubon-delivery-app-icon-red-02.png"
+    }
+  }
+}
